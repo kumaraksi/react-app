@@ -1,0 +1,30 @@
+{
+  "name": "react-app",
+  "version": "1.0.0",
+  "description": "demo app for react",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot"    
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumaraksi/react-app.git"
+  },
+  "keywords": [
+    "react",
+    "with",
+    "meteor"
+  ],
+  "author": "aksi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kumaraksi/react-app/issues"
+  },
+  "homepage": "https://github.com/kumaraksi/react-app#readme",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
