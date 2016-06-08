@@ -2,10 +2,12 @@
   "name": "react-app",
   "version": "1.0.0",
   "description": "demo app for react",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "webpack-dev-server --hot"    
-    },
+    "start": "webpack-dev-server --hot",
+    "test": "mocha --compilers js:babel-core/register --recursive",
+    "test:watch": "npm run test -- --watch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kumaraksi/react-app.git"
@@ -22,9 +24,18 @@
   },
   "homepage": "https://github.com/kumaraksi/react-app#readme",
   "dependencies": {
+    "jshintreact": "^1.1.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.5.3"
+  },
+"babel": {
+  "presets": ["es2015"]
+}
 }
