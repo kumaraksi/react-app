@@ -6,12 +6,6 @@ class App extends React.Component {
          <div>
             Hello World!!!
          </div>
-         <div>
-            Hello World!!!
-         </div>
-         <div>
-            Hello World!!!
-         </div>
       );
    }
 }
